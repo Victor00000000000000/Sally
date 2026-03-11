@@ -23,10 +23,10 @@ E através do pino STBY consegue ativa-se e desativa-se a ponte h, quando desati
 
 class PonteH{
     public:
-    PonteH(int8_t I1,int8_t I2,int8_t STDBY,int8_t pinoPWM,int8_t canalPWM);
+    PonteH(int8_t I1, int8_t I2, int8_t STDBY, int8_t pinoPWM, int8_t canalPWM);
 
     /*
-    *Construtor:
+    *Declaração do Construtor:
     *I1 e I2->pino para configurar direção 
     *STDBY-> pino que aciona a ponte h, se estiver desligado, não vai ligar o motor
     *Pino PWM-> pino que vai receber a velocidade a ser aplicada através da Modulação por Largura de Pulso (PWM)
