@@ -1,0 +1,1 @@
+<h1>Descrição detalhada da classe Segue_Linha<h1>
